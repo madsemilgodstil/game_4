@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Enemy - Spil</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <div id="game" class="game">
+
+      <div id="game">
+        <div class="score">
+          Score: <span id="score">0</span>
+        </div>
+
+        <button id="info" class="info" type="button">?</button>
+
+        <div id="countdown"></div>
+        <div id="life">
+          Humans invaded: <span id="life_count">3</span>
+        </div>
+        <button id="pause" class="pause" type="button">Pause</button>
+        <div id="monsters" class="monsters"></div>
+        <div id="beam" class="beam">
+          <div></div>
+        </div>
+        <div id="character" class="character">
+          <div id="arm" class="arm"></div>
+        </div>
+        <div id="info_box" class="info_box">
+          <p>Shoot the humans in spacesuits before they invade the moon</p>
+
+          <button id="restart" class="restart" type="button">Restart</button>
+          <button id="home" class="home" type="button"><a href="index.html">Hjem</a></button>
+          <h3>Game by - Mads Emil Heitmann </h3>
+        </div>
+        <div id="overlay" class="overlay"></div>
+      </div>
+  </main>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
